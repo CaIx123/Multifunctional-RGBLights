@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Xiao Yuheng, HUST, LIC=Y2B1Q-NW1HK-UMP9A-17NW4-AZNPE-F3WH7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.30.0.0
+Toolchain Path:  D:\arm KEIL\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+F:\我的文件夹\工作材料\进行项目\炫彩灯\MCU软件测试程序\F1程序\SPI驱动W25Q64\project.uvprojx
+Project File Date:  01/07/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\arm KEIL\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+.\Hardware\TIM\TIM.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\RGB_LIGHT\RGB_LIGHT.h(24): warning:  #1295-D: Deprecated declaration Refresh - give arg types
+  void Refresh();																							//定点更新
+.\Hardware\RGB_LIGHT\RGB_LIGHT.h(25): warning:  #1295-D: Deprecated declaration Refresh_All - give arg types
+  void Refresh_All();																					//更新整个灯带
+.\Hardware\RGB_LIGHT\RGB_LIGHT.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Hardware\W25QXX\w25qxx.h(54): warning:  #1295-D: Deprecated declaration W25QXX_Write_Protect - give arg types
+  void W25QXX_Write_Protect();				//扇区写保护
+.\Hardware\W25QXX\w25qxx.h(55): warning:  #1295-D: Deprecated declaration W25QXX_SR_Protect - give arg types
+  void W25QXX_SR_Protect();						//状态寄存器写保护
+User\main.c(3): warning:  #1295-D: Deprecated declaration Erase_All - give arg types
+  void Erase_All();
+User\main.c(4): warning:  #1295-D: Deprecated declaration test1 - give arg types
+  void test1();
+User\main.c(5): warning:  #1295-D: Deprecated declaration test2 - give arg types
+  void test2();
+User\main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=4320 RO-data=1788 RW-data=148 ZI-data=4836  
+".\Objects\first project.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\arm KEIL\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
